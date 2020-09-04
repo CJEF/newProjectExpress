@@ -8,8 +8,16 @@
   }
 
   form {
-    .login-button {
-      align-self: flex-end;
+    .buttons {
+      display: flex;
+      justify-content: space-around;
+      button {
+        font-size: 13px;
+        padding: 0 12px 0;
+      }
     }
+  }
+  .register {
+    display: none;
   }
 }

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=3001 node index.js",
-    "dev": "gulp & nodemon index.js"
+    "dev": "gulp"
   },
   "devDependencies": {
     "browser-sync": "^2.26.12",
@@ -23,6 +23,8 @@
     "cross-env": "^7.1.1",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglifyjs": "^0.6.2",
     "gulp-v3": "^3.12.1",
     "jquery": "^3.5.1",
     "mongoose": "^5.10.0",
