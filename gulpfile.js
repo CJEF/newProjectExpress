@@ -33,8 +33,8 @@ function scripts() {
 
 function serveR() {
   nodemon({
-      script: 'index.js',
-      watch: ["index.js", "app.js", "gulpfile.js", 'public/*', 'public/**/*', 'dev/js/**/*'],
+      script: 'app.js',
+      watch: ["app.js", "gulpfile.js", 'public/*', 'public/**/*', 'dev/js/**/*'],
       ext: 'js'
   }).on('restart', () => {
       gulp.src('index.js')
